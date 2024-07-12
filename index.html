@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="bg-twenty-eight">
+        <div class="container flex-between">
+            <div class="logo flex-centerY">
+                <div class="img">
+                    
+                    <img src="./assets/Tech-innovaters.jpeg" alt="logo of Tech-innovaters">
+                    
+                </div>
+                <div class="logo-div">
+                    <a href="" class="no-dec logo-name flex-centerY">Tech <span class="yellow">Innovaters</span></a></li>
+                </div>
+            </div>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+            <nav>
+                <ul class="flex-centerY large-menu bg-twenty-eight">
+                    <li><a href="#" class="no-dec">Home</a></li>
+                    <li><a href="#" class="no-dec">About Us</a></li>
+                    <li><a href="#" class="no-dec">Contact Us</a></li>
+                    <li><a href="#" class="no-dec sign">Sign<spsan class="yellow">In</spsan></a></li>
+                    <li><a href="#" class="no-dec sign">Sign<spsan class="yellow">Up</spsan></a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav>
+            <ul class="flex-centerY menu bg-twenty-eight">
+                <li><a href="#" class="no-dec">Home</a></li>
+                <li><a href="#" class="no-dec">About Us</a></li>
+                <li><a href="#" class="no-dec">Contact Us</a></li>
+                <li><a href="#" class="no-dec sign">Sign<spsan class="yellow">In</spsan></a></li>
+                <li><a href="#" class="no-dec sign">Sign<spsan class="yellow">Up</spsan></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <div class="flex-between main container">
+            <aside>
+                <h3 class="yellow">
+                    Recent Activities
+                </h3>
+                <ul>
+                    <li><a href="#" class="no-dec activities">Lahore Da Pawa Akhtar Lawa</a></li>
+                    <li><a href="#" class="no-dec activities">Lahore Da Pawa Akhtar Lawa</a></li>
+                    <li><a href="#" class="no-dec activities">Lahore Da Pawa Akhtar Lawa</a></li>
+                    <li><a href="#" class="no-dec activities">Lahore Da Pawa Akhtar Lawa</a></li>
+                    <li><a href="#" class="no-dec activities">Lahore Da Pawa Akhtar Lawa</a></li>
+                </ul>
+            </aside>
+            <div class="seperator"></div>
+            <article>
+                <div class="article whitesmoke">
+                    <h1><span class="whitesmoke">Welcome to <br>Tech</span><span class="yellow">Innovators</span></h1>
+                    <p class="Tag-Line">Your partner in tech solutions.</p>
+                    <h2 class="yellow">Our Mission</h2>
+                    <p class="Mission">To innovate and lead in the tech industry.</p>
+                </div>
+            </article>
+    </div>
+    </main>
+    <footer class="bg-twenty-eight">
+        <div class="flex-reverse container no-dec">
+            <a href="" class="no-dec logo-name flex-centerY">Tech <span class="yellow">Innovaters</span></a></li>
+            <ul class="social-media flex-col">
+                <li><a href="" class="no-dec">Home</a></li>
+                <li><a href="" class="no-dec">About Us</a></li>
+                <li><a href="" class="no-dec">Contact Us</a></li>
+                <li><a href="" class="no-dec">Sign<spsan class="yellow">In</spsan></a></li>
+                <li><a href="" class="no-dec">Sign<spsan class="yellow">Up</spsan></a></li>
+            </ul>
+        </div>
+        <div class="contact bg-twenty-eight">
+                
+            <p>Contact us at <spsan class="yellow">info@techinnovators.com</spsan></p>
+            
+        </div>
+
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
